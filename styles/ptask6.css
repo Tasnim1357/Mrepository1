@@ -1,0 +1,47 @@
+.p1{
+    border: 1px solid gray;
+    padding: 10px;
+   text-align: justify;
+   border-radius: 12px;
+   box-shadow: 5px 5px 10px 2px rgba(0, 0, 0,0.5);
+   margin: 10px;
+   display: block;
+}
+#p4{
+    box-shadow: 5px 5px 10px 2px palevioletred;
+    
+}
+#p5{
+    box-shadow: 5px 5px 10px 2px greenyellow;
+    
+}
+.imag{
+    width: 40%;
+    border-radius: 12px;
+    box-shadow: 5px 2px 8px grey;
+    margin: 10px;
+    display: inline-block;
+}
+h2{
+    color: darkcyan;
+    font-size: 35px;
+    text-align: center;
+}
+button{
+    padding: 10px 30px;
+    border-radius: 12px;
+    background-color: darksalmon;
+    margin: 20px;
+    display: block;
+    font-size: 20px;
+    color: aliceblue;
+}
+button:hover{
+    filter: brightness(0.9);
+}
+@media only screen and (max-width: 600px) {
+    .imag{
+        width: 95%;
+        object-fit: cover !important;
+    }
+  }
